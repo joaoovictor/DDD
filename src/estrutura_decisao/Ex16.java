@@ -18,7 +18,7 @@ public class Ex16 {
 		lado3 = sc.nextDouble();
 		
 		
-		if(lado2 * lado2 + lado3 * lado3 == hipotenusa * hipotenusa) {
+		if(((lado2 * lado2 + lado3 * lado3) == hipotenusa * hipotenusa)) {
 			System.out.println("É um triângulo retângulo!");
 		} else {
 			System.out.println("Não é um triângulo retângulo!");

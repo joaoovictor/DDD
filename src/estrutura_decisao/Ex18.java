@@ -19,7 +19,7 @@ public class Ex18 {
 		
 		calc = (velocidadeInicial + aceleracao * tempoPercurso) * 3.6;
 		
-		if(calc <= 40) {
+		  if(calc <= 40) {
 			System.out.printf("%.2f Km/h veículo muito lento!", calc);
 		} else if (calc > 40 && calc <= 60) {
 			System.out.printf("%.2f Km/h velocidade permitida!", calc);

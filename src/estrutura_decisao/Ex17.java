@@ -21,7 +21,7 @@ public class Ex17 {
 		calc = peso / (altura * altura); 
 		
 		if(sexo == 1) {
-			if(calc <  19) {
+			  if(calc <  19) {
 				System.out.printf("IMC: %.2f Você está abaixo do peso!", calc);
 			} else if(calc >= 19 && calc < 24) {
 				System.out.printf("IMC: %.2f Você está no peso ideal!", calc);
@@ -29,7 +29,7 @@ public class Ex17 {
 				System.out.printf("IMC: %.2f Você está acima do peso!", calc);
 			}
 		} else if (sexo == 2) {
-			if(calc <  20) {
+			  if(calc <  20) {
 				System.out.printf("IMC: %.2f Você está abaixo do peso!", calc);
 			} else if(calc >= 20 && calc < 25) {
 				System.out.printf("IMC: %.2f Você está no peso ideal!", calc);

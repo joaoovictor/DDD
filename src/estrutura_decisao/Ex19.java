@@ -16,7 +16,7 @@ public class Ex19 {
 		
 		media = (p1 + 2*p2)/3;
 		
-		if(media >= 5) {
+		  if(media >= 5) {
 			System.out.printf("%.1f APROVADO!", media);
 		} else {
 			System.out.printf("%.1f REPROVADO!", media);
