@@ -36,6 +36,8 @@ public class Ex17 {
 			} else {
 				System.out.printf("IMC: %.2f Você está acima do peso!", calc);
 			}
+		} else {
+			System.out.println("Inválido!");
 		}
 		sc.close();
 	}
