@@ -21,11 +21,11 @@ public class Ex18 {
 		
 		  if(calc <= 40) {
 			System.out.printf("%.2f Km/h veículo muito lento!", calc);
-		} else if (calc > 40 && calc <= 60) {
+		} else if ( calc <= 60) {
 			System.out.printf("%.2f Km/h velocidade permitida!", calc);
-		} else if(calc > 60 && calc <= 80) {
+		} else if( calc <= 80) {
 			System.out.printf("%.2f Km/h velocidade de cruzeiro!", calc);
-		} else if(calc > 80 && calc <= 120) {
+		} else if(calc <= 120) {
 			System.out.printf("%.2f Km/h veículo rápido!", calc);
 		} else if(calc > 120 ) {
 			System.out.printf("%.2f Km/h veículo muito rápido!", calc);
